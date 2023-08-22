@@ -1,0 +1,82 @@
+.nav-top {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 500px;
+}
+
+.box-main {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.home.active,
+.contact.active,
+.about.active,
+.gallery.active {
+    background: red;
+}
+
+
+.box1,
+.box2,
+.box3,
+.box4 {
+    width: 1450px;
+    height: 850px;
+    border: 2px solid;
+    display: none;
+}
+
+
+.box1.active,
+.box2.active,
+.box3.active,
+.box4.active {
+    display: inline-block;
+
+}
+
+.user1.active,
+.user2.active,
+.user3.active,
+.user4.active {
+    background-color: red;
+}
+
+.user1box {
+    display: none;
+}
+
+.user1box.active {
+    display: inline-block;
+}
+
+.user2box {
+    display: none;
+}
+
+.user2box.active {
+    display: inline-block;
+}
+
+.user3box {
+    display: none;
+}
+
+.user3box.active {
+    display: inline-block;
+}
+
+.user4box {
+    display: none;
+}
+
+.user4box.active {
+    display: inline-block;
+}
